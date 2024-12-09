@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Marco Zero</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/Recife/indStyles.css">
     </head>
     <body>
-        <header>
-            <!--Deve ser introduzida um logotipo-->
-            <h1>Recife Antigo</h1>
+        <header class="flex-container">
+            <h1>Recife Antigo &copy;</h1>
             <nav>
-                <ul>
+                <ul class="flex-container">
                     <li><a href="#">Lugares Turísticos</a></li>
                     <li><a href="#">Hospedagens</a></li>
                     <li><a href="#">Sobre</a></li>
@@ -19,22 +19,21 @@
             </nav>
         </header> <hr>
         <main>
-           <section id="intro">
-                <h2>Conheça o Marco Zero</h2>
+           <section class="intro">
+                <img src="img/MarcoZero_01.webp" alt="Marco zero">
                 <div>
-                    <span>O <strong>Marco Zero</strong> em Recife é um dos pontos turísticos e históricos mais emblemáticos da 
+                    <h2>Conheça o Marco Zero</h2>
+                    <p>O <strong>Marco Zero</strong> em Recife é um dos pontos turísticos e históricos mais emblemáticos da 
                         cidade, sendo considerado o ponto inicial das medições geográficas de Pernambuco. 
                         Ele está localizado na Praça do Marco Zero, no bairro do Recife, próximo ao Porto do 
-                        Recife e à Vila Rica, no Centro Histórico da cidade. Abaixo estão algumas informações 
-                        importantes sobre o local:
-                    </span>
-                    <img src="img/MarcoZero_01.webp" alt="Marco zero">
+                        Recife e à Vila Rica, no Centro Histórico da cidade. 
+                    </p>
                 </div>
            </section> 
            <section id="indice">
-                <div>
-                    <h3>História</h3>
-                    <span>
+                <h2>História</h2>
+                <div class="txt-container" id="reverse">
+                    <div>
                         <p><strong>Origem</strong>: O Marco Zero foi instalado em 1850 para marcar o ponto 
                             inicial da medição geodésica do estado de Pernambuco, estabelecendo a partir daí a
                             referência para a divisão territorial e o mapeamento da região. 
@@ -49,103 +48,109 @@
                             origem da cidade, já que Recife foi um dos primeiros núcleos urbanos estabelecidos 
                             no Brasil, com forte ligação ao mar e ao comércio no período colonial. 
                         </p>
-                    </span>
+                    </div>
                     <img src="img/MarcoZero_historia.jpg" alt="Historia do Marco Zero">
                 </div>
                 <div>
-                    <h3>Praça do Marco Zero</h3>
-                    <span>
-                        <p><b>Localização</b>: A Praça está situada bem no coração do Recife Antigo, 
-                            com vista para o mar e para o Porto do Recife, que foi um dos maiores centros 
-                            comerciais do Brasil colonial. 
-                        </p>
-                        <p>
-                            <b>Cultura e lazer</b>: Além do marco físico, a praça e a região ao 
-                            redor são um centro cultural e de lazer, com vários restaurantes, bares e espaços 
-                            culturais. É o local onde acontecem diversos eventos culturais, shows ao ar livre e 
-                            feiras. 
-                        </p>
-                        <p>
-                            <b>Vista</b>: A área também oferece uma vista para o Recife antigo, o Rio 
-                            Capibaribe e o Iate Clube do Recife. 
-                        </p>
-                    </span>
-                    <img src="img/marco-zero-praça.png" alt="praça do marco zero">
+                    <h2>Praça do Marco Zero</h2>
+                    <div class="txt-container">
+                        <div>
+                            <p><b>Localização</b>: A Praça está situada bem no coração do Recife Antigo, 
+                                com vista para o mar e para o Porto do Recife, que foi um dos maiores centros 
+                                comerciais do Brasil colonial. 
+                            </p>
+                            <p>
+                                <b>Cultura e lazer</b>: Além do marco físico, a praça e a região ao 
+                                redor são um centro cultural e de lazer, com vários restaurantes, bares e espaços 
+                                culturais. É o local onde acontecem diversos eventos culturais, shows ao ar livre e 
+                                feiras. 
+                            </p>
+                            <p>
+                                <b>Vista</b>: A área também oferece uma vista para o Recife antigo, o Rio 
+                                Capibaribe e o Iate Clube do Recife. 
+                            </p>
+                        </div>
+                        <img src="img/marco-zero-praça.png" alt="praça do marco zero">
+                    </div>
                 </div>
                 <div>
-                    <h3>Atrações Próximas</h3>
-                    <div id="artigos">
-                        <div>
+                    <h2>Atrações Próximas</h2>
+                    <div class="artigos-container">
+                        <article>
                             <span>
                                 <strong>Centro Cultural do Recife</strong>: Um complexo cultural que abrange 
                                 o antigo prédio da Aliança Francesa, com museus, galerias e teatros.
                             </span>
                             <img src="img/CaixaCultural-recife.jpg" alt="Centro Cultural do Recife">
-                        </div>
-                        <div>
-                            <span>
+                        </article>
+                        <article>
+                            <p>
                                 <strong>Sinagoga Kahal Zur Israel</strong>: A mais antiga sinagoga das Américas, 
                                 que data de 1641, localizada a uma curta distância do Marco Zero.
-                            </span>
+                            </p>
                             <img src="img/sinagoga.jpg" alt="Sinagoga Kahal Zur Israel">
-                        </div>
-                        <div>
-                            <span>
+                        </article>
+                        <article>
+                            <p>
                                 <a href="../Recife/Página II/page2.html"><strong>Rua do Bom Jesus</strong></a>: Uma das ruas mais antigas da cidade, 
                                 cheia de arquitetura colonial, igrejas e lojas de artesanato.
-                            </span>
+                            </p>
                             <img src="img/RUA do Bom Jesus.jpg" alt="Rua bom Jesus">
-                        </div>
-                        <div>
-                            <span> 
+                        </article>
+                        <article>
+                            <p> 
                                 <strong>Museu do Frevo</strong>: Localizado no Centro do Recife, é dedicado ao 
                                 frevo, um dos ritmos mais tradicionais da cidade.
-                            </span>
+                            </p>
                             <img src="img/paco-frevo-1.png" alt="Museu do Frevo">
-                        </div>
-                        <div>
-                            <span>
+                        </article>
+                        <article>
+                            <p>
                                 <strong>Rua Nova e Praça do Arsenal</strong>: Região próxima à Praça do Marco Zero 
                                 com vida noturna ativa, bares e eventos culturais.
-                            </span>
+                            </p>
                             <img src="img/praça do arsenal.jpg" alt="praça do arsenal">
-                        </div> 
+                        </article> 
                     </div>
                 </div>
-                <div>
-                    <h3>Marco Zero e o Turismo</h3>
-                    <p>O Marco Zero é uma das portas de entrada para quem visita o Recife Antigo e também uma referência 
-                        para os turistas que querem explorar o centro histórico da cidade. Sua localização central e 
-                        acessibilidade fazem dele um ponto de encontro popular entre moradores e visitantes.
-                    </p>
+                <div  class="intro">
                     <img src="img/Turismo_MarcoZero.jpg" alt="Turismo Marco Zero">
+                    <div>
+                        <h2>Marco Zero e o Turismo</h2>
+                        <p>O Marco Zero é uma das portas de entrada para quem visita o Recife Antigo e também uma referência 
+                            para os turistas que querem explorar o centro histórico da cidade. Sua localização central e 
+                            acessibilidade fazem dele um ponto de encontro popular entre moradores e visitantes.
+                        </p>
+                    </div>
                 </div>
            </section>
-           <aside>
-                <P><strong>Veja outros pontos turísticos</strong></P>
-                <ul>
-                    <li><a href="../Recife/Página II/page2.html">Rua do Bom Jesus</a></li>
-                </ul>
-           </aside>
+           <aside class="flex-container">
+                <div id="coment">
+                    <p>Gostou do conteúdo?</p>
+                    <p>Deixe o seu comentário</p>
+                    <form action="">
+                        <Textarea cols="50" rows="5" placeholder="Escrever comentário"></Textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <div>
+                    <P><strong>Veja outros pontos turísticos</strong></P>
+                    <ul>
+                        <li><a href="../Recife/Página II/page2.html">Rua do Bom Jesus</a></li>
+                    </ul>
+                </div>
+            </aside>
         </main> <hr>
-        <footer>
-            <div id="coment">
-                <p>Gostou do conteúdo?</p>
-                <p>Deixe o seu comentário</p>
-                <form action="">
-                    <input type="text">
-                    <input type="submit">
-                </form>
-            </div>
+        <footer class="footer-flex-container">
             <div id="siga">
                 <p>Siga-nos:</p>
-                <ul>
+                <ul  class="flex-container">
                     <li ><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
                     <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
                     <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></li>
                 </ul>
+                <p>Recife Antigo &copy; 2024 - Developed by Tomás Macuácua</p>
             </div>
-            <p>Recife Antigo &copy; 2024 - Developed by Tomás Macuácua</p>
         </footer>
     </body>
 </html>
