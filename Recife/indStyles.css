@@ -32,7 +32,7 @@ header{
 .flex-container a:hover{
     color: #000;
     font-weight: bolder;
-    transition: 1s;
+    transition: .5s;
     text-shadow:5px -3px 4px  #269269;
 }
 
