@@ -11,6 +11,7 @@
 body{
     background-color:rgba(224, 139, 41, 0.445);
 }
+
 h1, h2{
     text-align: center;
     padding: 2rem 0rem;
@@ -28,6 +29,13 @@ header{
 }
 .flex-container a{
     padding-right: 1rem;
+}
+@media (max-width:384px){
+    .flex-container a{
+        font-size: 10px;
+        padding-right:-.8rem;
+        padding-left: -0.8rem;
+    }
 }
 .flex-container a:hover{
     color: #000;
@@ -59,6 +67,13 @@ img{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+@media (max-width:640px){
+    .txt-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
 .txt-container p{
     width: 20rem;
     text-align: justify;
@@ -67,6 +82,11 @@ img{
 
 #reverse{
     flex-direction: row-reverse;
+}
+@media (max-width: 640px){
+    #reverse{
+        flex-direction: column-reverse;
+    }
 }
 
 .artigos-container{
@@ -93,15 +113,23 @@ img{
 
 textarea{
     background-color: #ffffffab;
+    border-radius: 5%;
+}
+@media (max-width:360px){
+    textarea{
+        width: 320px;
+
+    }
 }
 input{
-    border-radius: 25%;
+    border-radius: 45%;
     width: 4rem;
     height: 2.5rem;
     text-align: center;
     background-color:rgba(233, 127, 5, 0.568) ;
     border: none;
 }
+
 input:hover{
     box-shadow: 5px -5px 6px  #269269;
     background-color: transparent ;
