@@ -1,7 +1,7 @@
 *{
-    margin: 0rem;
-    padding: 0rem;
-    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     list-style: none;
     color: rgba(27, 26, 26, 0.911);
@@ -9,28 +9,29 @@
     text-align: justify;
 }
 body{
-    background-color:rgba(224, 139, 41, 0.26);
+    background-color: #e9d20536;
 }
-
-h1, h2{
+h2, h3{
     text-align: center;
-    padding: 2rem 0rem;
+    padding: 15px 0px;
+    font-weight: 300;
+    font-size: 20pt;
 }
-/*ESTILIZAÇÃO DO HEADER*/
 header{
-    background-color: rgba(233, 127, 5, 0.568);
+    background-color:rgba(233, 127, 5, 0.568);
 }
-.flex-container{
+.flex-container, ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .5rem 1rem;
+    padding: 1rem;
     flex-wrap: wrap;
 }
-.flex-container a{
+.flex-container, a{
     padding-right: 1rem;
+    font-weight:350 ;
 }
-@media (max-width:384px){
+@media (max-width:390px){
     .flex-container a{
         font-size: 10px;
         padding-right:-.8rem;
@@ -40,11 +41,11 @@ header{
 .flex-container a:hover{
     color: #000;
     font-weight: bolder;
-    transition: .5s;
+    transition: .3s;
     text-shadow:5px -3px 4px  #269269;
 }
 
-/*ESTIIZANDO A MAIN*/
+/*ESTILIZANDO A MAIN*/
 .intro {
     width: 100%;                    height: 40vh;
 }
@@ -53,7 +54,7 @@ img{
 }
 .intro img{
     width: 100%;                    height: 100%;
-    opacity: .25;
+    opacity: .5;
 }
 .intro div{
     position: relative;
@@ -61,18 +62,10 @@ img{
     text-align: center;
     margin: 0% 5%;
 }
-
 .txt-container{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-@media (max-width:640px){
-    .txt-container{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
 }
 .txt-container p{
     width: 20rem;
@@ -80,40 +73,10 @@ img{
     padding-bottom: 1rem;
 }
 
-#reverse{
-    flex-direction: row-reverse;
-}
-@media (max-width: 640px){
-    #reverse{
-        flex-direction: column-reverse;
-    }
-}
-
-.artigos-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 1rem 3rem;
-}
-.artigos-container article{
-    width: 13rem;
-    height: 25rem;
-    margin-right: 1rem;         margin-top: 1rem;
-    display: flex;
-    flex-direction: column-reverse;
-    background-color:rgba(233, 127, 5, 0.315) ;
-}
-.artigos-container img{
-    width: 100%;
-    height: 100%;
-}
-.artigos-container p{
-    height: 30%;
-}
-
 aside{
     background-color:rgba(238, 225, 208, 0.575);
 }
+
 textarea{
     background-color: #ffffffab;
     border-radius: 5%;
@@ -146,6 +109,9 @@ input:hover{
 #Othr_pages li{
     padding: 5px 0px;
 }
+
+
+
 /*ESTILIZANDO O FOOTER*/
 footer{
     background-color:rgba(233, 127, 5, 0.568);
