@@ -1,0 +1,5 @@
+Crie um novo projecto com dois arquivos: index.html e script.js. No arquivo HTML, defina a estrutua  padrão
+do HTML e inclua uma tag h1 com o título "Conexão com o arquivo JavaScript". No arquivo JavaScript defina uma
+função que imprima a mensagem "Conexão feita com sucesso!". no terminal, e execute ela três vezes. finalmente
+conecte ambos arquivos, abra seu projecto no navegador usando a extensão liveServer e confira se a mensagem foi
+impressa três vezes no terminal.
