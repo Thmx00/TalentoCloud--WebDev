@@ -1,7 +1,7 @@
 const mensagem =function(){
-    console.log("Conexão feita com sucesso!");
-    console.log("Conexão feita com sucesso!");
-    console.log("Conexão feita com sucesso!");
+    for (let i = 0; i<3; i++){
+        console.log(i+" Conexão feita com sucesso!");
+    }
 }
 
 mensagem ();
